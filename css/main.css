@@ -1,0 +1,131 @@
+body {/*selector tipo etiqueta body*/
+    margin: 0;/*los margenes de nuestra pagina estan en 0*/
+    background: #44accf;/*color de toda la pagina*/
+}
+
+#conteiner{/*selector id="conteiner"*/
+	width: 900px;/*ancho del conteiner*/
+	margin-top: 0px;/*margen superioe es 0*/
+	margin-bottom: 0px;/*margen inferior es 0*/
+	margin-left: auto;/*margen izquierdo */
+	margin-right: auto;/*margen derecho */
+}
+
+div {/*selector tipo etiqueta div*/
+    display: block;/*toda la caja div tendra un comportamiento en bloque afectando a los inline(<a></<a>)*/
+}
+#content {/*selector id="content"*/
+    position: relative;/*posicion relativa respecto a su padre(conteiner) deja un espacio*/
+    padding: 20px 250px 60px 20px;/*para posicionarlo relativamente utiliza los valores del padding(top,right,left,bottom)*/
+    background: white;/*color del contenido*/
+}
+
+#nav {/*selector tipo id="nav"*/
+    height: 50px;/*altura*/
+    background: #b7d84b;/*color*/
+}
+#nav a {/*selector tipo id="nav" y etiqueta a*/
+    float: left;/*flotan los elementos link hacia la izquierda*/
+    color: #fff;/*color de la letra*/
+		text-decoration: none;/*se quita el subrayado que por defecto la etiqueta a pone a sus elementos */
+    padding: 15px;/*relleno */
+    height: 50px;/*altura*/
+    border-right: 1px solid #91ab3b;/*borde solido de 1px para cada caja "link" al lado derecho */
+}
+
+#callout {/*selector id=callout*/
+    position: absolute;/*posicionamiento absoluto respecto a su padre content, no deja ningun espacio*/
+    top: 100px;/*posicionamiento se ubicara a 100px del content superiormente */
+    bottom: 100px;/*posicionamiento se ubicara a 100px del content inferiormente */
+    right: -80px;/*posicionamiento se ubicara a -80px del content a la derecha*/
+    width: 210px;/*ancho de la caja callout*/
+    padding: 0 20px;/*relleno superior y a la derecha */
+    border-top: 5px solid #f95b34;/*borde superior de 5px con un dterminado color*/
+    background: #fa8366;/*color de la caja callout*/
+}
+#callout p {/*selector tipo id="callout" y etiqueta p*/
+    color: white;/*color del texto blanco*/
+}
+
+#footer {/*selector id="footer"*/
+    position: fixed;/*posicionamiento fijo si la pgina se desplaza de arriba hacia abajo el pie de pagina se mantendra fijo nose desplazara*/
+    bottom: 0;/*pie de pagina ubicado en la parte inferior*/
+    width: 860px;/*ancho de la caja footer*/
+    background: #f36283;/*color de la caja footer*/
+}
+/*examples hasta la H*/
+/*#box_1 {
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#box_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_1_1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	background: orange;
+}
+#box_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_2_2{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 50px;
+	height: 50px;
+	background: orange;
+}
+#box_3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box_3_3{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	background: orange;
+}
+#box_4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+#box_4_4{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	width: 50px;
+	height: 50px;
+	background: orange;
+}*/
