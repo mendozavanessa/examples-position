@@ -32,6 +32,9 @@ div {/*selector tipo etiqueta div*/
     height: 50px;/*altura*/
     border-right: 1px solid #91ab3b;/*borde solido de 1px para cada caja "link" al lado derecho */
 }
+a:hover{
+	background-color: rgb(183,133,123)
+}
 
 #callout {/*selector id=callout*/
     position: absolute;/*posicionamiento absoluto respecto a su padre content, no deja ningun espacio*/
